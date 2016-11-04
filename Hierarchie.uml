@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fh.java.geometry.model.curved.Circle</OriginalElement>
+  <nodes>
+    <node x="-4464.08700614258" y="-4759.60065413172">fh.java.geometry.model.GeometricShape</node>
+    <node x="-4650.58700614258" y="-4591.60065413172">fh.java.geometry.model.quadrilateral.QuadrangularShape</node>
+    <node x="-4470.58700614258" y="-4490.60065413172">fh.java.geometry.model.curved.Circle</node>
+    <node x="-4098.08700614258" y="-4591.60065413172">fh.java.geometry.model.trilateral.TriangularShape</node>
+    <node x="-4410.58700614258" y="-4591.60065413172">fh.java.geometry.model.curved.CurvedShape</node>
+    <node x="-4666.08700614258" y="-4321.60065413172">fh.java.geometry.model.quadrilateral.Rectangle</node>
+    <node x="-4217.58700614258" y="-4512.60065413172">fh.java.geometry.model.trilateral.RightTriangle</node>
+    <node x="-4656.58700614258" y="-4501.60065413172">fh.java.geometry.model.quadrilateral.Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fh.java.geometry.model.trilateral.RightTriangle" target="fh.java.geometry.model.trilateral.TriangularShape">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fh.java.geometry.model.trilateral.TriangularShape" target="fh.java.geometry.model.GeometricShape">
+      <point x="0.0" y="-14.5" />
+      <point x="-4031.5870061425803" y="-4616.60065413172" />
+      <point x="-4280.753672809247" y="-4616.60065413172" />
+      <point x="73.33333333333331" y="59.0" />
+    </edge>
+    <edge source="fh.java.geometry.model.curved.CurvedShape" target="fh.java.geometry.model.GeometricShape">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="fh.java.geometry.model.quadrilateral.Square" target="fh.java.geometry.model.quadrilateral.QuadrangularShape">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fh.java.geometry.model.curved.Circle" target="fh.java.geometry.model.curved.CurvedShape">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fh.java.geometry.model.quadrilateral.QuadrangularShape" target="fh.java.geometry.model.GeometricShape">
+      <point x="0.0" y="-14.5" />
+      <point x="-4573.58700614258" y="-4616.60065413172" />
+      <point x="-4427.420339475913" y="-4616.60065413172" />
+      <point x="-73.33333333333331" y="59.0" />
+    </edge>
+    <edge source="fh.java.geometry.model.quadrilateral.Rectangle" target="fh.java.geometry.model.quadrilateral.Square">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="59.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7015961780349613" x="-4152.157327960993" y="-4400.827443303243" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
